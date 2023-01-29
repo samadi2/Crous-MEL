@@ -1,0 +1,174 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Winter Coffee';
+    src: url(../fonts/WinterCoffee.ttf);
+    font-family: 'Jersey M54';
+    src: url(../fonts/JerseyM54.ttf);
+}
+
+section {
+    height: 80vh;
+}
+
+.lieu {
+    height: 80vh;
+}
+
+#map {
+    height: 80vh;
+    position: relative;
+}
+
+.rest {
+    background: linear-gradient(65deg, cyan, #dc143c);
+    position: absolute;
+    bottom: 20vh;
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+}
+
+.rest1 {
+    background: greenyellow;
+    position: absolute;
+    bottom: 20vh;
+    padding: 1rem;
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.place {
+    background: linear-gradient(65deg, cyan, #dc143c);
+    border: solid black 4px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 339px;
+    height: 274px;
+    padding: 1rem;
+    border-radius: 40px;
+}
+
+.disc {
+    height: 100px;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Winter Coffee';
+    font-size: 32px;
+    padding: 10px;
+}
+
+p {
+    text-align: left;
+    font-family: 'Jersey M54';
+    font-size: 15px;
+    padding: 5px;
+}
+
+.btn1 {
+    display: none;
+}
+
+.btn {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    margin-right: 3rem;
+    gap: 10px;
+    margin-top: 1rem;
+
+}
+
+.enrg {
+    font-size: large;
+    padding: 5px 15px 5px 15px;
+    border-radius: 8px;
+    color: #dc143c;
+}
+
+.btns {
+    border: none;
+    font-size: 45px;
+    color: white;
+    background: none;
+    bottom: 43.55%;
+}
+
+.link {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    font-family: 'Winter Coffee';
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    background: darkcyan;
+}
+
+.img1 {
+    width: 50vw;
+    font-size: 34px;
+    color: aqua;
+    padding: 40px;
+}
+
+.img2 {
+    width: 50vw;
+    font-size: 44px;
+    color: aqua;
+    padding: 40px;
+}
+
+@media screen and (max-width:414px) {
+    .rest { 
+        display: flex;
+        flex-direction: column;
+        height:80vh;
+        align-items: center;
+    }
+    .btn {
+        display: none;
+    }
+
+    .btn1 {
+        align-items: flex-end;
+        display: flex;
+        justify-content: space-between;
+        height: 2rem;
+        margin-right: 3rem;
+        gap: 30px;
+        margin-top: 1rem;
+    }
+
+    h3 {
+        visibility: hidden;
+    }
+
+    i {
+        font-size: 64px;
+        padding: 2rem;
+    }
+
+}
