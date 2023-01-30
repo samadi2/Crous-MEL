@@ -9,9 +9,6 @@ function part() {
         rest.innerHTML+=
             `   
                 <div class="place">
-                    <div class="photo">
-                        <img src="assets/img/pays.jpg" alt="">
-                    </div>
                     <div class="btn1">
                         <button class="btns">X</button>    
                     </div>
