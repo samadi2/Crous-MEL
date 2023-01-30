@@ -1,6 +1,8 @@
 let rest = document.querySelector('.rest1');
 let save =JSON.parse(localStorage.getItem('favoris')) || [];
-
+function clear() {
+    localStorage.clear();
+}
 function part() {
 
     for (let lieux of save) {
@@ -29,6 +31,7 @@ document.addEventListener('click', (e)=>{
                 
     if (e.target.className === 'btns') {
         rest.style.display = 'none';
+        clear();
     }
     
 })
