@@ -37,14 +37,13 @@ fetch(url)
                 `;
                 let enrg = document.querySelector('.enrg');
                 enrg.addEventListener('click',()=> { 
-                    test1();
-                });
-                function test1() {
                     let favoris = {Titre:lieu.fields.title,Adresse:lieu.fields.contact,Desc:lieu.fields.infos}
                     let save =JSON.parse(localStorage.getItem('favoris')) || [];
                     save.push(favoris)
                     localStorage.setItem('favoris',JSON.stringify(save)) ;
-                }
+                    
+                });
+
                 
             }).bindPopup(lieu.fields.title).openPopup();
             document.addEventListener('click', (e)=>{
