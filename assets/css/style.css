@@ -81,10 +81,6 @@ p {
     padding: 5px;
 }
 
-.btn1 {
-    display: none;
-}
-
 .btn {
     align-items: flex-end;
     display: flex;
@@ -151,18 +147,11 @@ a:hover {
         height:80vh;
         align-items: center;
     }
-    .btn {
-        display: none;
+    .btn{
+        order: 2;
     }
-
-    .btn1 {
-        align-items: flex-end;
-        display: flex;
-        justify-content: space-between;
-        height: 2rem;
-        margin-right: 3rem;
-        gap: 30px;
-        margin-top: 1rem;
+    .disc{
+        order: 3;
     }
     .rest1{
         display: block;

@@ -9,17 +9,14 @@ function part() {
         rest.innerHTML+=
             `   
                 <div class="place">
-                    <div class="btn1">
-                        <button class="btns">X</button>    
-                    </div>
-                    <div class="disc"> 
-                        <h2>${lieux.Titre}</h2>  
-                        <p>${lieux.Adresse}</p>            
-                        <p>${lieux.Desc}</p>
-                    </div>
-                    <div class="btn">
-                        <button class="btns">X</button>    
-                    </div>
+                <div class="disc"> 
+                <h2>${lieux.Titre}</h2>  
+                <p>${lieux.Adresse}</p>            
+                <p>${lieux.Desc}</p>
+                </div>
+                <div class="btn">
+                    <button class="btns">X</button>    
+                </div>
                 </div>    `;
     }
 }

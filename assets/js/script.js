@@ -21,10 +21,6 @@ fetch(url)
                 <div class="photo">
                     <img src="assets/img/pays.jpg" alt="">
                 </div>
-                <div class="btn1">
-                    <button class="enrg">Enregister</button>
-                    <button class="btns">X</button>    
-                </div>
                 <div class="disc">                
                     <h2>${lieu.fields.title}</h2>
                     <p>${lieu.fields.contact}</p>
