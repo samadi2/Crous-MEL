@@ -9,10 +9,10 @@ fetch(url)
     .then((res) =>res.json())
     .then((res) => {
         const places = res.records;
-        // console.log(places[1]);
+        // console.log(places);
 
         for(let lieu of places) {
-            // console.log(lieu.fields.title);
+            // console.log(lieu);
             // console.log(lieu.fields.geolocalisation);
             let marker = L.marker(lieu.fields.geolocalisation).addTo(map)
             marker.addEventListener("click", () => {
