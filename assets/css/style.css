@@ -18,6 +18,7 @@ section {
 
 .lieu {
     height: 80vh;
+    width: 100vw;
 }
 
 #map {
@@ -32,6 +33,12 @@ section {
     z-index: 999;
     display: flex;
     flex-direction: row;
+    width: 100vw;
+}
+
+.para{
+    overflow-x: scroll;
+    word-break: break-all;
 }
 
 .rest1 {
@@ -140,7 +147,7 @@ a:hover {
     padding: 40px;
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:800px) {
     .rest { 
         display: flex;
         flex-direction: column;

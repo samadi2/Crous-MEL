@@ -9,7 +9,7 @@ fetch(url)
     .then((res) =>res.json())
     .then((res) => {
         const places = res.records;
-        // console.log(places);
+        console.log(places);
 
         for(let lieu of places) {
             // console.log(lieu);
@@ -24,7 +24,7 @@ fetch(url)
                 <div class="disc">                
                     <h2>${lieu.fields.title}</h2>
                     <p>${lieu.fields.contact}</p>
-                    <p>${lieu.fields.infos}</p>
+                    <p class="para" >${lieu.fields.infos}</p>
                 </div>
                 <div class="btn">
                     <button class="enrg">Enregister</button>

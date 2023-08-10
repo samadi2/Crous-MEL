@@ -12,7 +12,7 @@ function part() {
                 <div class="disc"> 
                 <h2>${lieux.Titre}</h2>  
                 <p>${lieux.Adresse}</p>            
-                <p>${lieux.Desc}</p>
+                <p class="para">${lieux.Desc}</p>
                 </div>
                 <div class="btn">
                     <button class="btns">X</button>    
