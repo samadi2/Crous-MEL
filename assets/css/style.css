@@ -33,7 +33,6 @@ section {
     z-index: 999;
     display: flex;
     flex-direction: row;
-    width: 100vw;
 }
 
 .para{
@@ -149,10 +148,9 @@ a:hover {
 
 @media screen and (max-width:800px) {
     .rest { 
-        display: flex;
         flex-direction: column;
         height:80vh;
-        align-items: center;
+        align-items: center
     }
     .btn{
         order: 2;
